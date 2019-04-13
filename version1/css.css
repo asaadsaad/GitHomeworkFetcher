@@ -47,7 +47,7 @@ footer {
 }
 
 a {
-    color: inherit;
+    color: #E3170A;
     text-decoration: none;
 }
 
@@ -128,10 +128,10 @@ a {
     padding-left: 30px;
     padding-bottom: 10px;
 }
-
+/* 
 #students_history a:hover {
     border-bottom: 1px solid red;
-}
+} */
 
 #students_history > li > ul {
     margin: 50px;

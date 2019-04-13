@@ -233,16 +233,20 @@ function access_student(target, name) {
 
                 history_list.appendChild(li);
             } else {
+
                 response.map((x) => {
+                    console.log(x)
+
                     const li = document.createElement('li');
                     const h5 = document.createElement('h5');
-                    const h3 = document.createElement('h3');
+                    const a = document.createElement('a');
 
                     h5.innerText = x.commit.committer.date;
-                    h3.innerText = x.commit.message;
+                    a.href = x.html_url;
+                    a.innerText = x.commit.message;
 
                     li.appendChild(h5);
-                    li.appendChild(h3);
+                    li.appendChild(a);
 
                     history_list.appendChild(li);
                 });
