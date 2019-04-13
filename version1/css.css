@@ -1,0 +1,163 @@
+header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-bottom: 2px solid #E3170A;
+    padding-bottom: 20px;
+}
+
+header h2,
+header h5 {
+    display: inline;
+    margin: 0 10px;
+    font-weight: normal;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+button:focus {
+    outline:0;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    border-top: 2px solid #E3170A;
+    padding-top: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#search {
+    border: none;
+    background-color: #F0F0F2;
+    padding: 12px 15px;
+    border-radius: 10px;
+    display: block;
+}
+
+#search:hover {
+    cursor: pointer;
+}
+
+#student_list {
+    border-left: 3px solid #F0F0F2;
+    border-right: 3px solid #F0F0F2;
+    padding: 0;
+    width: 80%;
+    max-width: 80%;
+}
+
+#student_list,
+#checkbox_list,
+/* #students_history, */
+#students,
+#info {
+    display: inline-block;
+}
+
+#checkbox_list {
+    width: 30px;
+    max-width: 30px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15px;
+}
+
+#checkbox_list li {
+    margin: 33px 0;
+}
+
+#student_list li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+#student_list li:hover {
+    background-color: #F0F0F2;
+    cursor: pointer;
+}
+
+#student_list h3 {
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+}
+
+#students {
+    width: 45%;
+    max-width: 45%;
+    position: relative;
+}
+
+#info {
+    width: 50%;
+    max-width: 50%;
+    vertical-align: top;
+}
+
+#students_history {
+    vertical-align: top;
+}
+
+#students_history a {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+#students_history a:hover {
+    border-bottom: 1px solid red;
+}
+
+#students_history > li > ul {
+    margin: 50px;
+    vertical-align: top;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
+
+#students_history > li h3,
+#students_history > li h5 {
+    display: inline;
+}
+
+#students_history > li h5 {
+    margin-right: 10px;
+}
+
+#students_history > li img {
+    margin-bottom: 10px;
+}
+
+#students_history h5,
+#students_history h3 {
+    font-weight: normal;
+}
+
+#students_history > li > ul > li {
+    margin-bottom: 10px;
+}
